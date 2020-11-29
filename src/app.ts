@@ -3,8 +3,8 @@ import bodyParser from 'body-parser'
 import { HelloEndpoints } from './endpoints/HelloEndpoints';
 import { SumEndpoints } from './endpoints/SumEndpoints'
 
-const app = express();
-const portNumber = 3000;
+const app = express()
+const portNumber = 3000
 
 const helloEndpoints = new HelloEndpoints()
 const sumEndpoints = new SumEndpoints()
