@@ -1,0 +1,22 @@
+{
+  "name": "base-typescript-express",
+  "version": "0.1.0",
+  "description": "Starter template for Typescript and Express projects",
+  "author": "Luiz Pereira",
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.9",
+    "ts-node": "^9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=12.16.0"
+  }
+}
